@@ -19,7 +19,8 @@ func main() {
   fmt.Printf(" XII(12): %d\n",parseNum("XII"))
   fmt.Printf(" IIX(7): %d\n",parseNum("IIIX"))
   fmt.Printf(" IVX(4): %d\n",parseNum("IVX"))
-  fmt.Printf(" VVX(0): %d\n",parseNum("IVX"))
+  fmt.Printf(" VVX(0): %d\n",parseNum("VVX"))
+  fmt.Printf(" VIX(4): %d\n",parseNum("VIX"))
 }
 
 func AddRoman(s1 string, s2 string) int {
